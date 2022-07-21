@@ -15,7 +15,7 @@ import Button from '@mui/material/Button';
 import { auth } from '../config/firebase';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { useNavigate } from 'react-router-dom';
-import { useEffect, useState } from 'react';
+// import { useEffect, useState } from 'react';
 import axios from 'axios';
 
 const BASE_IMAGE_URL = "http://image.tmdb.org/t/p/original";

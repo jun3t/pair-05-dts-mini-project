@@ -12,18 +12,18 @@ import { auth } from '../config/firebase';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import Paper from '@mui/material/Paper';
 import InputBase from '@mui/material/InputBase';
-import Divider from '@mui/material/Divider';
+// import Divider from '@mui/material/Divider';
 import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
+// import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
-import DirectionsIcon from '@mui/icons-material/Directions';
-import { getAccordionDetailsUtilityClass } from '@mui/material';
-import { useEffect, useState } from 'react';
+// import DirectionsIcon from '@mui/icons-material/Directions';
+// import { getAccordionDetailsUtilityClass } from '@mui/material';
+import { useState } from 'react';
 
 const Navbar = () => {
   const navigate = useNavigate();
   const [user] = useAuthState(auth);
-  const [query, setQuery] = useState("")
+  const [setQuery] = useState("")
 
   const onLogout = async () => {
     try {
@@ -35,7 +35,7 @@ const Navbar = () => {
   };
 
   const search = () => {
-    if (search == '') {
+    if (search === '') {
       return(('https://api.themoviedb.org/3/trending/movie/week?api_key=3b840c235f7518654802675f3d0fd066'));
     } else {
       alert('error')

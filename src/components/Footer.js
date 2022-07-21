@@ -1,7 +1,7 @@
 import { Box } from "@mui/system";
 import { Container } from "@mui/system";
-import { Link } from "@mui/material";
-import Grid from "@mui/system/Unstable_Grid/Grid";
+// import { Link } from "@mui/material";
+// import Grid from "@mui/system/Unstable_Grid/Grid";
 
 export default function Footer() {
   return (

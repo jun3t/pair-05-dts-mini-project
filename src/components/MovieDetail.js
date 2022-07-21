@@ -2,7 +2,7 @@ import * as React from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
-import { Box, CardMedia, Rating } from '@mui/material';
+import { Box, CardMedia} from '@mui/material';
 
 import Grid from '@mui/material/Grid'
 
@@ -10,8 +10,8 @@ import Grid from '@mui/material/Grid'
 // import { useAuthState } from 'react-firebase-hooks/auth';
 import { useLocation } from 'react-router-dom';
 
-import { useEffect, useState } from 'react';
-import axios from 'axios';
+// import { useEffect, useState } from 'react';
+// import axios from 'axios';
 import Navbar from './Navbar';
 import Footer from './Footer';
 
